@@ -1,0 +1,91 @@
+{
+  "social": {
+    "resume": "https://drive.google.com/file/d/1PdZBimui2gqhiyjyLon_ws4l5DclBi2y/view?usp=sharing",
+    "email": "arjunwankhede2905@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/wankhedearjun/",
+    "github": "https://github.com/ArjunW08",
+    "leetcode": "https://leetcode.com/u/ArjunW08/",
+    "substack": "https://substack.com/@arjunw08",
+    "phone": "+91 7620575462",
+    "substackPublications": [
+      "https://masteringml.substack.com/"
+    ]
+  },
+  "work": {
+    "experience": [
+      {
+        "designation": "Member of Technical Staff [Applied NLP]",
+        "company": "Zoho Corporation",
+        "duration": "July 2023 - Present",
+        "location": "Chennai, India",
+        "details": [
+          "Implementing scalable, multi-node data processing pipelines leveraging Slurm for managing large-scale pretraining datasets. This included extensive work on collecting, cleaning, and applying advanced heuristic filters and research-backed data filtering techniques to ensure high-quality training data.",
+          "LLM Data Preparation & Tokenization Optimisation: Engineered and executed efficient tokenization strategies for Indic LLM pretraining datasets using the Sentence-piece library, significantly reducing perplexity scores and decreasing model throughput costs, resulting in measurable savings in GPU training hours.",
+          "Domain-Specific Data Categorisation: Utilised the Lilac tool for advanced data categorisation and analysis, which enabled the generalisation of specific domain content. This work directly contributed to improving the LLM's performance and benchmark scores within targeted application domains.",
+          "Advanced Context and Encoding Research: Pioneered the implementation of state-of-the-art research methods, including different encoding techniques and context-preserving graph methods, to mitigate context loss and improve the robustness and overall performance of the LLM in complex tasks.",
+          "RLHF Research and Model Study: Conducted research study on Reward Models and their role in Reinforcement Learning from Human Feedback (RLHF). ",
+          "AI Safety & Model Guardrails: Developed and deployed an AI Safety Classifier model using spaCy and Fastext frameworks, achieving 87% accuracy in real-time detection of harmful or malicious prompts, effectively acting as a guardrail to prevent undesirable LLM responses."
+        ]
+      },
+      {
+        "designation": "Project Trainee",
+        "company": "Zoho Corporation",
+        "duration": "Feb 2023 - April 2023",
+        "location": "Chennai, India",
+        "details": [
+          "Worked on PostgreSQL internals to enhance data type performance, resulting in substantial improvements in query execution efficiency.",
+          "Engineered a custom fixed-decimal data type, achieving a 25% overall performance boost on benchmark queries through optimized arithmetic logic monetary values.",
+          "Designed and built a PostgreSQL extension in C language, integrating advanced features to streamline query execution paths effectively.",
+          "Conducted thorough performance tuning and testing, ensuring seamless integration of new features along with maintaining system stability.",
+          "Automated rigorous performance analysis between ClickHouse and internal analytical databases using shell scripts, streamlining the entire data collection and validation process."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "repo": "https://github.com/ArjunW08/vendor_performance",
+        "pinned": true,
+        "tags": "Python, Machine Learning, EDA, Scikit-learn"
+      },
+      {
+        "repo": "https://github.com/ArjunW08/CodeAware",
+        "pinned": true,
+        "tags": "Dart, Flutter, Android"
+      },
+      {
+        "repo": "https://github.com/ArjunW08/CrossWord-Generator",
+        "pinned": true,
+        "tags": "C++ Language, OOPs"
+      },
+      {
+        "repo": "https://github.com/ArjunW08/Fixed-Decimal",
+        "pinned": false,
+        "tags": "C++, PostgreSQL, Extension"
+      }
+    ]
+  },
+  "about": {
+    "me": "Applied NLP Engineer with 3+ years of experience building large-scale LLM pretraining pipelines and model alignment. I love exploring new tools and techniques in field of AI and solving real world problems.",
+    "expertise": [
+      "Large Language Model architecture's",
+      "Data Preparation & Curation for pre-training and post-training",
+      "Model Training & Evaluation",
+      "Model Deployment using open source inference engines."
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering",
+        "college": "Government College of Engineering, Nagpur",
+        "stream": "Computer Science and Engineering",
+        "location": "Nagpur, Maharashtra",
+        "cgpa": "8.03/10.00"
+      }
+    ],
+    "currently": [
+      "🔨 Building high scale data pipelines for training LLM's",
+      "📚 Learning Agentic AI Systems",
+      "📝 Writing technical blogs",
+      "🤝 Open to collaborations and opportunities in AI/ML"
+    ]
+  }
+}

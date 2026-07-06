@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home | Arjun Wankhede</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <!-- SEO Meta -->
+    <meta name="description"
+        content="Arjun Wankhede's personal portfolio — full-stack developer, technical writer, and lifelong learner based in Chennai, India. Explore projects, blog posts, and more.">
+    <meta name="keywords"
+        content="Arjun Wankhede, portfolio, full-stack developer, web developer, technical writer, software engineer, Chennai, India">
+    <meta name="author" content="Arjun Wankhede">
+    <meta name="theme-color" content="#111111">
+    <link rel="canonical" href="https://arjunwankhede.github.io/">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Arjun Wankhede — Developer, Writer & Creator">
+    <meta property="og:description"
+        content="Full-stack developer, technical writer, and lifelong learner. Explore projects, blog posts, and more.">
+    <meta property="og:url" content="https://arjunwankhede.github.io/">
+    <meta property="og:image" content="https://arjunwankhede.github.io/assets/images/profile.png">
+    <meta property="og:site_name" content="Arjun Wankhede">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Arjun Wankhede",
+      "url": "https://arjunwankhede.github.io/",
+      "description": "Arjun Wankhede's personal portfolio — developer, writer, and creator.",
+      "author": {
+        "@type": "Person",
+        "name": "Arjun Wankhede",
+        "jobTitle": "Member of Technical Staff",
+        "worksFor": { "@type": "Organization", "name": "Zoho Corporation" },
+        "url": "https://arjunwankhede.github.io/",
+        "image": "https://arjunwankhede.github.io/assets/images/profile.png",
+        "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressCountry": "IN" },
+        "sameAs": [
+          "https://linkedin.com/in/",
+          "https://github.com/"
+        ]
+      }
+    }
+    </script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <noscript id="deferred-styles">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </noscript>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div id="navbar"></div>
+    <script src="assets/js/navbar.js"></script>
+
+    <!-- Site Content -->
+    <main class="site-content">
+        <div class="container">
+
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-image">
+                    <div class="orbit-ring orbit-ring-1"></div>
+                    <div class="orbit-ring orbit-ring-2"></div>
+                    <img class="hero-photo" src="assets/images/profile.png" alt="Arjun">
+                </div>
+                <div class="hero-text">
+                    <h1>Hi, I'm Arjun</h1>
+                    <p class="hero-role">Member of Technical Staff</p>
+                    <div class="hero-company-logo">
+                        <img src="assets/images/zoho-logo-web.svg" alt="Zoho Corporation" class="hero-logo">
+                    </div>
+                    <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Chennai, India</p>
+                    <a href="#" id="hero-resume-btn" class="btn-hero" target="_blank" rel="noopener"><i
+                            class="fas fa-file-alt"></i> Resume</a>
+                </div>
+            </section>
+
+            <!-- Intro blurb -->
+            <p class="intro-blurb">Researcher & Developer. I build AI solution's and love
+                sharing what I learn along the way.</p>
+
+            <!-- Home Sections -->
+            <div class="home-sections">
+
+                <!-- What Do I Do -->
+                <div class="home-card">
+                    <h3><span class="home-card-icon"><i class="fas fa-code"></i></span> What I Do</h3>
+                    <p>I'm an Applied NLP Engineer building elegant, performant AI solutions. I am involded in
+                        research and development of Large Language Model's covering aspects like Data Curation, Model
+                        Training, Evaluation and Deployment.</p>
+                    <ul class="home-card-list">
+                        <li><i class="fas fa-laptop-code"></i> Research &amp; Prototyping</li>
+                        <li><i class="fas fa-project-diagram"></i> AI Applications &amp; System Design</li>
+                        <li><i class="fas fa-pen-nib"></i> Technical Writing &amp; Blogging</li>
+                    </ul>
+                    <a href="about.html" class="home-card-link">More about me <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Recent Blogs -->
+                <div class="home-section">
+                    <h3><span class="home-section-icon"><i class="fas fa-blog"></i></span> Recent Blogs</h3>
+                    <div id="home-blogs"></div>
+                </div>
+
+                <!-- Featured Projects -->
+                <div class="home-section">
+                    <h3><span class="home-section-icon"><i class="fas fa-rocket"></i></span> Featured Projects</h3>
+                    <div id="home-projects"></div>
+                </div>
+
+                <!-- Get in Touch -->
+                <div class="home-card home-card-cta">
+                    <h3><span class="home-card-icon"><i class="fas fa-envelope-open-text"></i></span> Get in Touch</h3>
+                    <p>Find me a good fit, have a project in mind, want to collaborate, or just want to say hello? I'd
+                        love to hear from
+                        you.</p>
+                    <a href="about.html" id="home-contact-btn" class="btn-hero" style="margin-top: 1rem;">Contact Me
+                        <i class="fas fa-paper-plane"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div>Copyright &copy; 2026 Arjun</div>
+                <div class="footer-links">
+                    <a href="mailto:YOUR_EMAIL_HERE" title="Email"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://linkedin.com/in/" target="_blank" title="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i>
+                        GitHub</a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="assets/js/content-loader.js"></script>
+    <script>
+        loadBlogs('#home-blogs', 3, 'compact');
+        loadProjects('#home-projects', 3, 'compact', { pinnedOnly: true });
+    </script>
+    <script src="assets/js/hero-bg.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Deferred font loading
+        var loadDeferredStyles = function () {
+            var addStylesNode = document.getElementById("deferred-styles");
+            if (!addStylesNode) return;
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement);
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+            window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+        if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+    </script>
+</body>
+
+</html>
