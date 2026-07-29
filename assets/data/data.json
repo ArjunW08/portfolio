@@ -43,6 +43,11 @@
     ],
     "projects": [
       {
+        "repo": "https://github.com/ArjunW08/credit_risk_modelling",
+        "pinned": true,
+        "tags": "Python, Machine Learning, Docker"
+      },
+      {
         "repo": "https://github.com/ArjunW08/vendor_performance",
         "pinned": true,
         "tags": "Python, Machine Learning, EDA, Scikit-learn"
