@@ -338,14 +338,24 @@ function loadWorkExperience(containerSelector) {
                 detailsHtml = '<ul>' + exp.details.map(function (d) { return '<li>' + d + '</li>'; }).join('') + '</ul>';
             }
 
+            var logoHtml = '';
+            if (exp.logo) {
+                logoHtml = '<img src="' + exp.logo + '" alt="' + exp.company + ' logo" class="timeline-card-logo">';
+            }
+
             var item = document.createElement('div');
             item.className = 'timeline-item';
             item.innerHTML =
                 '<div class="timeline-dot"></div>' +
                 '<div class="timeline-date">' + exp.duration + '</div>' +
                 '<div class="timeline-card">' +
-                '  <h3>' + exp.designation + '</h3>' +
-                '  <div class="company">' + exp.company + (exp.location ? ' - ' + exp.location : '') + '</div>' +
+                '  <div class="timeline-card-header">' +
+                '    <div>' +
+                '      <h3>' + exp.designation + '</h3>' +
+                '      <div class="company">' + exp.company + (exp.location ? ' - ' + exp.location : '') + '</div>' +
+                '    </div>' +
+                logoHtml +
+                '  </div>' +
                 detailsHtml +
                 '</div>';
             container.appendChild(item);

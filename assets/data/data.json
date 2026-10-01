@@ -1,6 +1,6 @@
 {
   "social": {
-    "resume": "https://drive.google.com/file/d/1PdZBimui2gqhiyjyLon_ws4l5DclBi2y/view?usp=sharing",
+    "resume": "https://drive.google.com/file/d/1NHCXuGu7NU9lkW5_NE5aTmCv02yGIG6z/view?usp=sharing",
     "email": "arjunwankhede2905@gmail.com",
     "linkedin": "https://www.linkedin.com/in/wankhedearjun/",
     "github": "https://github.com/ArjunW08",
@@ -14,12 +14,29 @@
   "work": {
     "experience": [
       {
+        "designation": "AI Engineer",
+        "company": "Zenteiq AI Solutions Pvt Ltd",
+        "duration": "August 2026 - Present",
+        "location": "Bangalore, India",
+        "logo": "assets/images/zenteiq-logo-web.svg",
+        "details": [
+          "Just started, will be adding soon..."
+        ]
+      },
+      {
         "designation": "Member of Technical Staff [Applied NLP]",
         "company": "Zoho Corporation",
-        "duration": "July 2023 - Present",
+        "duration": "July 2023 - August 2026",
         "location": "Chennai, India",
+        "logo": "assets/images/zoho-logo-web.svg",
         "details": [
-          "Implementing scalable, multi-node data processing pipelines leveraging Slurm for managing large-scale pretraining datasets. This included extensive work on collecting, cleaning, and applying advanced heuristic filters and research-backed data filtering techniques to ensure high-quality training data.",
+          "Implemented Data Curation pipeline for collecting pre-training data for LLM's from CommonCrawl Snapshots using NeMo-Curator. This pipeline leverages Slurm for managing large-scale pretraining datasets over multi-node setup. This included extensive work on collecting, cleaning, and applying advanced heuristic filters and research-backed data filtering techniques to ensure high-quality training data.",
+          "Worked on building domain specific ETL pipelines by introducing parser level(lxml) modifications during data extraction ensuring optimal data quality for LLM training. This involves proper conversion of Math, Table and Code content in latex and markdown format",
+          "Designed long-context data generation pipeline for curating mid-training data from arXiv RSS feeds and OSF preprint servers.",
+          "Built OCR pipeline for data extraction from documents across 14 different file formats using Docling and pdf-inspector.",
+          "Contributed to designing of Cross Deduplication strategy w.r.t different datasets and knowledge cut-off date.",
+          "Built language based filtration tool using fastext based language detection models to significantly reduced 20% noise from the post-training datasets.",
+          "Carried out model evaluations using evaluation tools like DeepEval, LM-evaluation harness to check the robustness of LLM's across complex tasks.",
           "LLM Data Preparation & Tokenization Optimisation: Engineered and executed efficient tokenization strategies for Indic LLM pretraining datasets using the Sentence-piece library, significantly reducing perplexity scores and decreasing model throughput costs, resulting in measurable savings in GPU training hours.",
           "Domain-Specific Data Categorisation: Utilised the Lilac tool for advanced data categorisation and analysis, which enabled the generalisation of specific domain content. This work directly contributed to improving the LLM's performance and benchmark scores within targeted application domains.",
           "Advanced Context and Encoding Research: Pioneered the implementation of state-of-the-art research methods, including different encoding techniques and context-preserving graph methods, to mitigate context loss and improve the robustness and overall performance of the LLM in complex tasks.",
@@ -32,6 +49,7 @@
         "company": "Zoho Corporation",
         "duration": "Feb 2023 - April 2023",
         "location": "Chennai, India",
+        "logo": "assets/images/zoho-logo-web.svg",
         "details": [
           "Worked on PostgreSQL internals to enhance data type performance, resulting in substantial improvements in query execution efficiency.",
           "Engineered a custom fixed-decimal data type, achieving a 25% overall performance boost on benchmark queries through optimized arithmetic logic monetary values.",
@@ -70,7 +88,7 @@
     ]
   },
   "about": {
-    "me": "Applied NLP Engineer with 3+ years of experience building large-scale LLM pretraining pipelines and model alignment. I love exploring new tools and techniques in field of AI and solving real world problems.",
+    "me": "AI Data Engineer with 3+ years of experience building large-scale LLM pretraining pipelines and model alignment. I love exploring new tools and techniques in field of AI and solving real world problems.",
     "expertise": [
       "Large Language Model architecture's",
       "Data Preparation & Curation for pre-training and post-training",

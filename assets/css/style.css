@@ -1111,6 +1111,20 @@ h6 {
     margin-bottom: 0.75rem;
 }
 
+.timeline-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.timeline-card-logo {
+    height: 40px;
+    max-width: 120px;
+    width: auto;
+    object-fit: contain;
+}
+
 /* Tags */
 .tags {
     display: flex;
