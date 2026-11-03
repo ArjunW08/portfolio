@@ -14,13 +14,15 @@
   "work": {
     "experience": [
       {
-        "designation": "AI Engineer",
+        "designation": "AI Engineer - AI Foundry Team",
         "company": "Zenteiq AI Solutions Pvt Ltd",
         "duration": "August 2026 - Present",
         "location": "Bangalore, India",
         "logo": "assets/images/zenteiq-logo-web.svg",
         "details": [
-          "Just started, will be adding soon..."
+          "Working on building RAG based solution to create Long-Context data for LLM training.",
+          "Built data pipelines for curating Pre-Training and Mid-Training data for Scientific Foundational Models",
+          "Contributed to data engineering efforts for building 2B and 5B parameter models released under IndiaAI Mission. (Technical Report)[https://www.zenteiq.ai/research/publications/#dhir-technical-report]"
         ]
       },
       {
